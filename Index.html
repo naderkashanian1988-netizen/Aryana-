@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Aryana</title>
+    <style>
+        body { background: #050a10; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .circle { width: 50px; height: 50px; border-radius: 50%; background: rgba(255,255,255,0.1); cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .miora-pos { top: 85%; right: 10%; }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div id="miora" class="circle miora-pos"></div>
+    </div>
+    <script src="api.js"></script>
+    <script>
+        document.getElementById('miora').addEventListener('click', async () => {
+            try {
+                const result = await sendMessage("Hello");
+                alert(result);
+            } catch (e) {
+                alert(e.message);
+            }
+        });
+    </script>
+</body>
+</html>

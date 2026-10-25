@@ -1,0 +1,43 @@
+[2026-10-23 20:40:44] ===== NEW SESSION =====
+[2026-10-23 20:40:44] Smart Engine V3 started
+[2026-10-23 20:40:44] Mode: SIMULATION ONLY
+[2026-10-23 20:40:44] No real phone actions will be performed.
+[2026-10-23 20:40:44] Account 1 -> Wait
+[2026-10-23 20:40:44] Action 1/12 | Usage: 1/3
+[2026-10-23 20:40:44] Account 1 -> Wait
+[2026-10-23 20:40:44] Action 2/12 | Usage: 2/3
+[2026-10-23 20:40:45] Account 1 -> Tap
+[2026-10-23 20:40:45] Action 3/12 | Usage: 3/3
+[2026-10-23 20:40:45] Account 1: test limit reached
+[2026-10-23 20:40:45] Next account: Account 2
+[2026-10-23 20:40:45] Account 2 -> Wait
+[2026-10-23 20:40:45] Action 4/12 | Usage: 1/3
+[2026-10-23 20:40:46] Account 2 -> Tap
+[2026-10-23 20:40:46] Action 5/12 | Usage: 2/3
+[2026-10-23 20:40:46] Account 2 -> Swipe
+[2026-10-23 20:40:46] Action 6/12 | Usage: 3/3
+[2026-10-23 20:40:47] Account 2: test limit reached
+[2026-10-23 20:40:47] Next account: Account 3
+[2026-10-23 20:40:47] Account 3 -> Wait
+[2026-10-23 20:40:47] Action 7/12 | Usage: 1/3
+[2026-10-23 20:40:47] Account 3 -> Swipe
+[2026-10-23 20:40:47] Action 8/12 | Usage: 2/3
+[2026-10-23 20:40:48] Account 3 -> Wait
+[2026-10-23 20:40:48] Action 9/12 | Usage: 3/3
+[2026-10-23 20:40:48] Account 3: test limit reached
+[2026-10-23 20:40:48] Next account: Account 1
+[2026-10-23 20:40:48] Account 1 -> Wait
+[2026-10-23 20:40:48] Action 10/12 | Usage: 1/3
+[2026-10-23 20:40:49] Account 1 -> Wait
+[2026-10-23 20:40:49] Action 11/12 | Usage: 2/3
+[2026-10-23 20:40:49] Account 1 -> Wait
+[2026-10-23 20:40:49] Action 12/12 | Usage: 3/3
+[2026-10-23 20:40:50] Account 1: test limit reached
+[2026-10-23 20:40:50] Next account: Account 2
+[2026-10-23 20:40:50] ===== FINAL REPORT =====
+[2026-10-23 20:40:50] Actions completed: 12/12
+[2026-10-23 20:40:50] Account 1: 6 simulated actions
+[2026-10-23 20:40:50] Account 2: 3 simulated actions
+[2026-10-23 20:40:50] Account 3: 3 simulated actions
+[2026-10-23 20:40:50] Report saved to: /storage/emulated/0/Aryana/aryana/engine_v3_log.txt
+[2026-10-23 20:40:50] Simulation finished.

@@ -1,0 +1,23 @@
+{
+    "accounts": [
+        {
+            "email": "test1@example.com",
+            "password": "123456"
+        },
+        {
+            "email": "test2@example.com",
+            "password": "654321"
+        }
+    ],
+    "limits": {
+        "max_usage_per_account": 5,
+        "error_message_selector": "Limit Reached",
+        "login_button_selector": "Login"
+    },
+    "app": {
+        "package_name": "com.example.app"
+    },
+    "timing": {
+        "connection_retry_interval": 5
+    }
+}

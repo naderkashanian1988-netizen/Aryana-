@@ -1,0 +1,110 @@
+[2026-10-23 20:48:18] ========== SMART ENGINE V4 ==========
+[2026-10-23 20:48:18] ===== DETECTOR TESTS =====
+[2026-10-23 20:48:18] Message: 'Welcome' | Expected: False | Detected: False | PASS
+[2026-10-23 20:48:18] Message: 'Limit Reached' | Expected: True | Detected: True | PASS
+[2026-10-23 20:48:18] Message: 'Everything is working' | Expected: False | Detected: False | PASS
+[2026-10-23 20:48:18] Message: 'limit reached' | Expected: True | Detected: True | PASS
+[2026-10-23 20:48:18] Message: 'You have reached your usage limit' | Expected: True | Detected: True | PASS
+[2026-10-23 20:48:18] Message: 'Temporary error' | Expected: False | Detected: False | PASS
+[2026-10-23 20:48:18] Message: 'LIMIT REACHED!' | Expected: True | Detected: True | PASS
+[2026-10-23 20:48:18] Message: 'Try again later' | Expected: False | Detected: False | PASS
+[2026-10-23 20:48:18] Detector tests: 8/8 passed
+[2026-10-23 20:48:18] Detector result: ALL TESTS PASSED
+[2026-10-23 20:48:18] ===== ENGINE SIMULATION =====
+[2026-10-23 20:48:18] Mode: SIMULATION ONLY
+[2026-10-23 20:48:18] No real accounts or phone actions.
+[2026-10-23 20:48:18] Test 1: active account = Account 1
+[2026-10-23 20:48:18] Received message: 'Welcome'
+[2026-10-23 20:48:18] No limit detected. Usage: 1/3
+[2026-10-23 20:48:18] Test 2: active account = Account 1
+[2026-10-23 20:48:18] Received message: 'Limit Reached'
+[2026-10-23 20:48:18] LIMIT DETECTED for Account 1
+[2026-10-23 20:48:18] Switching to next account.
+[2026-10-23 20:48:18] Active account is now Account 2
+[2026-10-23 20:48:19] Test 3: active account = Account 2
+[2026-10-23 20:48:19] Received message: 'Everything is working'
+[2026-10-23 20:48:19] No limit detected. Usage: 1/3
+[2026-10-23 20:48:19] Test 4: active account = Account 2
+[2026-10-23 20:48:19] Received message: 'limit reached'
+[2026-10-23 20:48:19] LIMIT DETECTED for Account 2
+[2026-10-23 20:48:19] Switching to next account.
+[2026-10-23 20:48:19] Active account is now Account 3
+[2026-10-23 20:48:19] Test 5: active account = Account 3
+[2026-10-23 20:48:19] Received message: 'You have reached your usage limit'
+[2026-10-23 20:48:19] LIMIT DETECTED for Account 3
+[2026-10-23 20:48:19] Switching to next account.
+[2026-10-23 20:48:19] Active account is now Account 1
+[2026-10-23 20:48:20] Test 6: active account = Account 1
+[2026-10-23 20:48:20] Received message: 'Temporary error'
+[2026-10-23 20:48:20] No limit detected. Usage: 1/3
+[2026-10-23 20:48:20] Test 7: active account = Account 1
+[2026-10-23 20:48:20] Received message: 'LIMIT REACHED!'
+[2026-10-23 20:48:20] LIMIT DETECTED for Account 1
+[2026-10-23 20:48:20] Switching to next account.
+[2026-10-23 20:48:20] Active account is now Account 2
+[2026-10-23 20:48:20] Test 8: active account = Account 2
+[2026-10-23 20:48:20] Received message: 'Try again later'
+[2026-10-23 20:48:20] No limit detected. Usage: 1/3
+[2026-10-23 20:48:21] ===== SIMULATION REPORT =====
+[2026-10-23 20:48:21] Messages processed: 8
+[2026-10-23 20:48:21] Account switches: 4
+[2026-10-23 20:48:21] Account 1: 2 non-limit messages handled
+[2026-10-23 20:48:21] Account 2: 2 non-limit messages handled
+[2026-10-23 20:48:21] Account 3: 0 non-limit messages handled
+[2026-10-23 20:48:21] Report file: /storage/emulated/0/Aryana/aryana/engine_v4_log.txt
+[2026-10-23 20:48:21] Program finished.
+[2026-10-23 22:46:57] ========== SMART ENGINE V4 ==========
+[2026-10-23 22:46:57] ===== DETECTOR TESTS =====
+[2026-10-23 22:46:57] Message: 'Welcome' | Expected: False | Detected: False | PASS
+[2026-10-23 22:46:57] Message: 'Limit Reached' | Expected: True | Detected: True | PASS
+[2026-10-23 22:46:57] Message: 'Everything is working' | Expected: False | Detected: False | PASS
+[2026-10-23 22:46:57] Message: 'limit reached' | Expected: True | Detected: True | PASS
+[2026-10-23 22:46:57] Message: 'You have reached your usage limit' | Expected: True | Detected: True | PASS
+[2026-10-23 22:46:57] Message: 'Temporary error' | Expected: False | Detected: False | PASS
+[2026-10-23 22:46:57] Message: 'LIMIT REACHED!' | Expected: True | Detected: True | PASS
+[2026-10-23 22:46:57] Message: 'Try again later' | Expected: False | Detected: False | PASS
+[2026-10-23 22:46:57] Detector tests: 8/8 passed
+[2026-10-23 22:46:57] Detector result: ALL TESTS PASSED
+[2026-10-23 22:46:57] ===== ENGINE SIMULATION =====
+[2026-10-23 22:46:57] Mode: SIMULATION ONLY
+[2026-10-23 22:46:57] No real accounts or phone actions.
+[2026-10-23 22:46:57] Test 1: active account = Account 1
+[2026-10-23 22:46:57] Received message: 'Welcome'
+[2026-10-23 22:46:57] No limit detected. Usage: 1/3
+[2026-10-23 22:46:57] Test 2: active account = Account 1
+[2026-10-23 22:46:57] Received message: 'Limit Reached'
+[2026-10-23 22:46:57] LIMIT DETECTED for Account 1
+[2026-10-23 22:46:57] Switching to next account.
+[2026-10-23 22:46:57] Active account is now Account 2
+[2026-10-23 22:46:57] Test 3: active account = Account 2
+[2026-10-23 22:46:57] Received message: 'Everything is working'
+[2026-10-23 22:46:57] No limit detected. Usage: 1/3
+[2026-10-23 22:46:58] Test 4: active account = Account 2
+[2026-10-23 22:46:58] Received message: 'limit reached'
+[2026-10-23 22:46:58] LIMIT DETECTED for Account 2
+[2026-10-23 22:46:58] Switching to next account.
+[2026-10-23 22:46:58] Active account is now Account 3
+[2026-10-23 22:46:58] Test 5: active account = Account 3
+[2026-10-23 22:46:58] Received message: 'You have reached your usage limit'
+[2026-10-23 22:46:58] LIMIT DETECTED for Account 3
+[2026-10-23 22:46:58] Switching to next account.
+[2026-10-23 22:46:58] Active account is now Account 1
+[2026-10-23 22:46:58] Test 6: active account = Account 1
+[2026-10-23 22:46:58] Received message: 'Temporary error'
+[2026-10-23 22:46:58] No limit detected. Usage: 1/3
+[2026-10-23 22:46:59] Test 7: active account = Account 1
+[2026-10-23 22:46:59] Received message: 'LIMIT REACHED!'
+[2026-10-23 22:46:59] LIMIT DETECTED for Account 1
+[2026-10-23 22:46:59] Switching to next account.
+[2026-10-23 22:46:59] Active account is now Account 2
+[2026-10-23 22:46:59] Test 8: active account = Account 2
+[2026-10-23 22:46:59] Received message: 'Try again later'
+[2026-10-23 22:46:59] No limit detected. Usage: 1/3
+[2026-10-23 22:46:59] ===== SIMULATION REPORT =====
+[2026-10-23 22:46:59] Messages processed: 8
+[2026-10-23 22:46:59] Account switches: 4
+[2026-10-23 22:46:59] Account 1: 2 non-limit messages handled
+[2026-10-23 22:46:59] Account 2: 2 non-limit messages handled
+[2026-10-23 22:46:59] Account 3: 0 non-limit messages handled
+[2026-10-23 22:46:59] Report file: /storage/emulated/0/Aryana/aryana/engine_v4_log.txt
+[2026-10-23 22:46:59] Program finished.
